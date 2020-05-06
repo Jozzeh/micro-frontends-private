@@ -1,0 +1,27 @@
+{
+  "name": "prepodiumprivate",
+  "version": "0.1.0",
+  "description": "demo of private micro frontends with podium",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startAll": "(cd ./sveltepod && npm run podiumbuild) && (cd ./reactpod && npm run podiumbuild) && (cd ./htmlbuspod && npm run podiumbuild) && (cd ./vuepod && npm run podiumbuild) && (cd ./app && npm start)",
+    "installAll": "(cd ./sveltepod && npm install) && (cd ./reactpod && yarn) && (cd ./htmlbuspod && npm install) && (cd ./vuepod && npm install) && (cd ./app && npm install)" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jozzeh/micro-frontends-private.git"
+  },
+  "keywords": [
+    "demo",
+    "podium",
+    "micro",
+    "frontend"
+  ],
+  "author": "Jozzeh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jozzeh/micro-frontends-private/issues"
+  },
+  "homepage": "https://github.com/Jozzeh/micro-frontends-private#readme"
+}
