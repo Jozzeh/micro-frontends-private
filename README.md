@@ -1,7 +1,6 @@
 # Private micro frontends  
-This is a demonstration of private micro front-ends using the podium framework.  
-The difference with public micro front-ends, is that the micro front-ends do not need to be online.   
-Public micro front-end example: https://github.com/Jozzeh/micro-frontends-divers   
+This is a demonstration of  micro front-ends using the podium framework without the use of a CDN to serve the static files.    
+With CDN - micro front-end example: https://github.com/Jozzeh/micro-frontends-divers   
 Podium framework : https://podium-lib.io/ 
 
 Vanilla JS + React + VueJS + Svelte are combined in a single application. 
