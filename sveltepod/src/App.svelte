@@ -19,7 +19,7 @@
 <main>
 	<img src="svelte-assets/svelte.png" alt="svelte logo" />
 	<p>This is an app using Svelte...</p>
-	<label for="busname">Send a message through the bus...</label><br/>
+	<label for="busname">Send a message through the event bus...</label><br/>
 	<input bind:value={name} id="busname" on:keyup={handleKeyup}/>
 	<p class="smallText">Message: {name}</p>
 </main>
